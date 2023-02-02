@@ -1,0 +1,30 @@
+{
+  "name": "uikit-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@hitachivantara/uikit-react-core": "^4.4.2",
+    "@hitachivantara/uikit-react-icons": "^4.0.5",
+    "@hitachivantara/uikit-react-lab": "^4.3.3",
+    "@mui/material": "^5.11.7",
+    "@mui/styles": "^5.11.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.53",
+    "@types/react-dom": "^17.0.18",
+    "@vitejs/plugin-react": "^3.1.0",
+    "rollup-plugin-bundle-analyzer": "^1.6.6",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
